@@ -27,8 +27,6 @@ public class UglyNumbers {
         return false; 
     } 
   
-    // Function to sort ugly numbers 
-    // in their relative positions 
     /**
     * Función para ordenar números feos 
     * @param  arr[] arreglo de enteros positivos
