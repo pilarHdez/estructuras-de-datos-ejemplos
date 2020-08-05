@@ -1,4 +1,5 @@
 # Listas 
+[List (Java Platform SE 8 )](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
 
 ### Perfomance.java 
 Mide rendimiento entre ArrayList y LinkedList
@@ -7,4 +8,4 @@ java Perfomance.java
 javac Perfomance
 ```
 ## ArrayList 
-[Ejemplos](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+[Ejemplos](https://github.com/pilarHdez/estructuras-de-datos-ejemplos/tree/master/list/arrayList)
