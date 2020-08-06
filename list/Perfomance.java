@@ -1,3 +1,5 @@
+import java.util.ArrayList; 
+import java.util.LinkedList; 
 /**
 * Clase para medir rendimiento ArrayList vs LinkedList,
 * las operaciones usadas para la comparación son: 

@@ -1,5 +1,6 @@
 import java.util.Vector;
 import java.util.Random;
+
 public class QuickSort{
 
     private static Vector inputArray = new Vector();
