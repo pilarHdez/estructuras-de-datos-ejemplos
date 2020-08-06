@@ -10,3 +10,16 @@
 java ReverseString.java 
 javac ReverseString
 ```
+
+### BalancedParentheses.java
+
+*Input*: exp = “[()]{}{[()()]()}” <br/>
+*Output*: true <br/>
+<br />
+*Input*: str = exp = “[(])” <br/>
+*Output*: false <br/>
+
+```bash
+java BalancedParentheses.java 
+javac BalancedParentheses
+```
