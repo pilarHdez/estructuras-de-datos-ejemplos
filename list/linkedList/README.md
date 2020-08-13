@@ -11,8 +11,8 @@ Dada una secuencia de caracteres almacenada en LinkedList imprimir el reverso de
 *Output*: z, y, x <br/>
 
 ```bash
-java ReverseCharacterSequence.java 
-javac ReverseCharacterSequence
+javac ReverseCharacterSequence.java 
+java ReverseCharacterSequence
 ```
 
 ### PalindromeCharacterSequence.java
@@ -25,6 +25,6 @@ Dada una secuencia de caracteres almacenada en LinkedList determinar si dicha se
 *Output*: false <br/>
 
 ```bash
-java PalindromeCharacterSequence.java 
-javac PalindromeCharacterSequence
+javac PalindromeCharacterSequence.java 
+java PalindromeCharacterSequence
 ```

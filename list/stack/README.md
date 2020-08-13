@@ -8,8 +8,8 @@ Invertir una cadena utilizando un Stack.
 *Output*: "zdeH raliP" <br/>
 
 ```bash
-java ReverseString.java 
-javac ReverseString
+javac ReverseString.java 
+java ReverseString
 ```
 
 ### BalancedParentheses.java
@@ -22,6 +22,6 @@ Dada una expresión, examinar si los pares y los órdenes de “{“, “}”, �
 *Output*: false <br/>
 
 ```bash
-java BalancedParentheses.java 
-javac BalancedParentheses
+javac BalancedParentheses.java 
+java BalancedParentheses
 ```

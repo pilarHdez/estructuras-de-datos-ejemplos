@@ -12,8 +12,8 @@ Dado un arreglo de números enteros positivos, la tarea es ordenar solo aquellos
 *Output*: 1 2 3 7 10 12 <br/>
 
 ```bash
-java UglyNumbers.java 
-javac UglyNumbers
+javac UglyNumbers.java 
+java UglyNumbers
 ```
 
 ### PermutationsString.java
@@ -28,8 +28,8 @@ Por ejemplo, las palabras ‘bat’ y ‘tab’ representan dos permutación dis
 *Output*: [abc, bac, bca, acb, cab, cba] <br/>
 
 ```bash
-java PermutationsString.java 
-javac PermutationsString
+javac PermutationsString.java 
+java PermutationsString
 ```
 
 ### PhoneDigitsWords.java
@@ -54,8 +54,8 @@ el carácter pertenece a a, b, c y el segundo carácter pertenece a d, e, f
 *Output*: [j, k, l] <br/>
 
 ```bash
-java PhoneDigitsWords.java 
-javac PhoneDigitsWords
+javac PhoneDigitsWords.java 
+java PhoneDigitsWords
 ```
 
 ### SubsequencesString.java
@@ -69,6 +69,6 @@ Una subsecuencia es una secuencia que puede derivarse de otra secuencia eliminan
 *Output*: g e ge e ge ee gee k gk ek gek ek gek eek geek <br/>
 
 ```bash
-java SubsequencesString.java 
-javac SubsequencesString
+javac SubsequencesString.java 
+java SubsequencesString
 ```

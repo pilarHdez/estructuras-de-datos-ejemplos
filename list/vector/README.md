@@ -5,8 +5,8 @@
 Implementación del algoritmo [Quicksort](https://en.wikipedia.org/wiki/Quicksort) usando Vector 
 
 ```bash
-java QuickSort.java 
-javac QuickSort
+javac QuickSort.java 
+java QuickSort
 ```
 
 ### OddOccurrence.java
@@ -19,6 +19,6 @@ Dado un Vector de enteros positivos. Todos los números se producen un número p
 *Output*: 5 <br/>
 
 ```bash
-java OddOccurrence.java 
-javac OddOccurrence
+javac OddOccurrence.java 
+java OddOccurrence
 ```

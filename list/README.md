@@ -4,8 +4,8 @@
 ### Perfomance.java 
 Mide rendimiento entre ArrayList y LinkedList
 ```bash
-java Perfomance.java 
-javac Perfomance
+javac Perfomance.java 
+java Perfomance
 ```
 ## [ArrayList](https://github.com/pilarHdez/estructuras-de-datos-ejemplos/tree/master/list/arrayList)
 
