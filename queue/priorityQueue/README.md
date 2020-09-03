@@ -28,3 +28,12 @@ Dado un arreglo de cadenas, cada cadena tiene una longitud diferente, determinar
 javac SmallString.java 
 java SmallString
 ```
+
+### DPQ.java
+Dado un gráfico con representación de lista de adyacencia de los bordes entre los nodos, la tarea es implementar el algoritmo de Dijkstra para la ruta más corta de una sola fuente utilizando PriorityQueue.
+Dado un gráfico y un vértice de origen en el gráfico, encuentre las rutas más cortas desde el origen hasta todos los vértices en el gráfico dado.
+
+```bash
+javac DPQ.java 
+java DPQ
+```
