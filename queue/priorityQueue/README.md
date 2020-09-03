@@ -13,3 +13,18 @@ Ejemplo orden personalizado en PriorityQueue
 javac priorityQueue/*.java
 java priorityQueue/CustomOrder
 ```
+
+### SmallString.java
+Dado un arreglo de cadenas, cada cadena tiene una longitud diferente, determinar cual es la n-ésima cadena más pequeña. 
+
+*Input*: arr[] = {"hola", "cuatro", "feo", "comprobar"} n=2 <br/>
+*Output*: hola <br/>
+"hola" es la segunda cadena con longitud más pequeña <br/>
+<br/>
+*Input*: arr[] = {"hola", "cuatro", "feo", "comprobar"} n=1 <br/>
+*Output*: feo <br/>
+
+```bash
+javac SmallString.java 
+java SmallString
+```
