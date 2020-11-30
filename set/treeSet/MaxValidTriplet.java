@@ -3,7 +3,7 @@ import java.util.TreeSet;
 public class MaxValidTriplet{
  
     /**
-    * Función para Obtener el valor máximo de tripleta
+    * Función para obtener el valor máximo de tripleta
     * válida
     * @param  arr  arreglo de enteros 
     */
