@@ -1,5 +1,5 @@
 import java.util.Stack; 
-  
+
 public class BalancedParentheses { 
   
     /**
@@ -11,13 +11,13 @@ public class BalancedParentheses {
     static boolean areParanthesisBalanced(String expr) 
     { 
         // Crear Stack
-        Stack<Character> stack = new ArrayStack<Character>(); 
+        Stack<Character> stack = new Stack<Character>(); 
   
         // Iterar sobre la expresión
         for (int i = 0; i < expr.length(); i++) { 
             char x = expr.charAt(i); 
   
-            if (x == '(' || x == '[' || x == '{') { 
+            if (x == '(' ||  x == '[' ||  x == '{') { 
                 // Push del carácter actual
                 stack.push(x); 
                 continue; 
@@ -25,26 +25,27 @@ public class BalancedParentheses {
   
             if (stack.isEmpty()) 
                 return false; 
-  
-            switch (x) { 
-            case ')': 
-                stack.pop(); 
-                if (x == '{' || x == '[') 
-                    return false; 
-                break; 
-  
-            case '}': 
-                stack.pop(); 
-                if (x == '(' || x == '[') 
-                    return false; 
-                break; 
-  
-            case ']': 
-                stack.pop(); 
-                if (x == '(' || x == '{') 
-                    return false; 
-                break; 
-            } 
+
+            char currentParenthesis;   
+            switch (x) {   
+                case ')':   
+                currentParenthesis = (char) stack.pop();   
+                if (currentParenthesis == '{' || currentParenthesis == '[')   
+                    return false;   
+                break;  
+
+                case '}':   
+                currentParenthesis = (char) stack.pop();   
+                if (currentParenthesis == '(' || currentParenthesis == '[')   
+                    return false;   
+                break;   
+
+                case ']':   
+                currentParenthesis = (char) stack.pop();   
+                if (currentParenthesis == '(' || currentParenthesis == '{')   
+                    return false;   
+                break;   
+            }   
         } 
   
         // Validar Stack vacío
@@ -54,8 +55,12 @@ public class BalancedParentheses {
     // Main
     public static void main(String[] args) 
     { 
-        String expr = "([{}])"; 
+        // Expresión no válida
+        String expr = "([{)}]"; 
+        System.out.println("([{)}] ¿Balanceado? " + areParanthesisBalanced(expr));
 
-        System.out.println("([{}]) ¿Balanceado? " + areParanthesisBalanced(expr));
+        // Expresión válida
+        expr = "[{()}]"; 
+        System.out.println("[{()}] ¿Balanceado? " + areParanthesisBalanced(expr));
     } 
-} 
+}
